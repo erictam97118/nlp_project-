@@ -1,24 +1,24 @@
 # nlp_project
 
 * **Action Step**:
-  1. Research on possible datasets
-  2. Research on possible algorithms 
-  3. Implement Extractive Summary on news
-  4. Implement Abstractive Summary on news
-  5. Implement Sentiment Analysis on news 
+  * Research on possible datasets
+  * Research on possible algorithms 
+  * Implement Extractive Summary on news
+  * Implement Abstractive Summary on news
+  * Implement Sentiment Analysis on news 
 
 ## Tools 
 
 * **Possible Datasets**
-  1. [CNN and Daily Mail] (https://github.com/abisee/cnn-dailymail)
-  2. [Amazon Fine Food reviews] (https://www.kaggle.com/snap/amazon-fine-food-reviews#Reviews.csv)
-  3. [XSum Dataset] (https://github.com/EdinburghNLP/XSum)
+  * [CNN and Daily Mail] (https://github.com/abisee/cnn-dailymail)
+  * [Amazon Fine Food reviews] (https://www.kaggle.com/snap/amazon-fine-food-reviews#Reviews.csv)
+  * [XSum Dataset] (https://github.com/EdinburghNLP/XSum)
  
 * **Possible Libraries**
-  1. [SpaCy] (https://spacy.io/)
-  2. [keras] (https://www.tensorflow.org/guide/keras)
-  3. [Gensim] (https://radimrehurek.com/gensim/)
-  4. [PyTorch] (https://pytorch.org/) 
+  * [SpaCy] (https://spacy.io/)
+  * [keras] (https://www.tensorflow.org/guide/keras)
+  * [Gensim] (https://radimrehurek.com/gensim/)
+  * [PyTorch] (https://pytorch.org/) 
 
 ## Algorithms 
 
