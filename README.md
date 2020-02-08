@@ -39,6 +39,13 @@ Reference paper:
 
 #### Latent Semantic Analysis 
 
+Latent Semantic Analysis (LSA) is widely used for topic modeling tasks. It is a statisitcal method in extracting the contextual meaning of words and the similarity of sentences in an unsupervised way. LSA is based on the method of Singular Value Decomposition (SVD) to identify the relationship between terms and sentences.
+
+In the text summarization task, LSA can be used to detect the topic. It will detect the topic of the whole document, followed by evaluating each sentence by what kind of topics are included. The sentence which obtain the highest score in the topic as the document will be the summary.
+
+Reference paper:
+[Text Summarization using Latent Semantic Analysis](https://www.researchgate.net/publication/220195824_Text_summarization_using_Latent_Semantic_Analysis)
+
 #### Unsupervised learning with skip-thought vectors 
 
 ### 2. Abstractive Approach 
