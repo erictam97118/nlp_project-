@@ -10,15 +10,15 @@
 ## Tools 
 
 * **Possible Datasets**
-  * [CNN and Daily Mail] (https://github.com/abisee/cnn-dailymail)
-  * [Amazon Fine Food reviews] (https://www.kaggle.com/snap/amazon-fine-food-reviews#Reviews.csv)
-  * [XSum Dataset] (https://github.com/EdinburghNLP/XSum)
+  * [CNN and Daily Mail](https://github.com/abisee/cnn-dailymail)
+  * [Amazon Fine Food reviews](https://www.kaggle.com/snap/amazon-fine-food-reviews#Reviews.csv)
+  * [XSum Dataset](https://github.com/EdinburghNLP/XSum)
  
 * **Possible Libraries**
-  * [SpaCy] (https://spacy.io/)
-  * [keras] (https://www.tensorflow.org/guide/keras)
-  * [Gensim] (https://radimrehurek.com/gensim/)
-  * [PyTorch] (https://pytorch.org/) 
+  * [SpaCy](https://spacy.io/)
+  * [keras](https://www.tensorflow.org/guide/keras)
+  * [Gensim](https://radimrehurek.com/gensim/)
+  * [PyTorch](https://pytorch.org/) 
 
 ## Algorithms 
 
