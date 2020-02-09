@@ -36,7 +36,7 @@ TextRank is based on the famous PageRank algorithm which has been deployed in th
 
 In TextRank, we will regard each sentences in the documents as the node. For the matrix formualtion, the sentence similarity will be used in filling the entries in the matrix. After carrying out the iterative process, sentence with highest weighting will be the summary.  The sentence similarity can be computed in many different ways, in the original paper, it uses the overlapping words frequency between two sentences as the similarity.  Also, the similarity can be obtained by word embedding method as well.
 
-![text_rank_formula](./images/text_rank_formula.png)
+<img src="/./images/text_rank_formula.png"  width="30">
 ![text_rank_similarity](./images/text_rank_similarity.png)
 
 Reference paper: 
@@ -66,7 +66,7 @@ In the decoder network, it will take the output vector from the encoder network 
 ##### 3. K-means clustering 
 After learning the vector representations of each sentences, a clustering algorithm will be carried out in grouping the sentences according to the meaning respectively.  After carrying out the clustering, the sentences which are closest to center point of each cluster are considered to be important sentences.    
 
-![skip_though_clustering.png](./images/skip_though_clustering.png]
+![skip_thought_clustering.png](./images/skip_thought_clustering.png]
 
 Research paper:
 [Unsupervised Text Summarization Using Sentence Embeddings](https://www.cs.utexas.edu/~asaran/reports/summarization.pdf)
