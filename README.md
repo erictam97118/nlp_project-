@@ -32,7 +32,12 @@ In the field of text summarization, there are mainly two ways to do so, namely E
 
 TextRank is based on the famous PageRank algorithm which has been deployed in the Google search enigne. The algorithm is built on the idea of majority voting, "The webpage which is linked by other webpages is important, but the webpage which is linked by many other linked webpages is more important".  The links between the webpages can be expressed by a matrix , and the matrix will be converted as a transition probability matrix.  By using the iteration formula, the weights of each node (webpage) can be determined accordingly.
 
+![page_rank.png](./images/page_rank.png)
+
 In TextRank, we will regard each sentences in the documents as the node. For the matrix formualtion, the sentence similarity will be used in filling the entries in the matrix. After carrying out the iterative process, sentence with highest weighting will be the summary.  The sentence similarity can be computed in many different ways, in the original paper, it uses the overlapping words frequency between two sentences as the similarity.  Also, the similarity can be obtained by word embedding method as well.
+
+![text_rank_formula](./images/text_rank_formula.png)
+![text_rank_similarity](./images/text_rank_similarity.png)
 
 Reference paper: 
 [TextRank: Brining Order into Texts](https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf)
@@ -50,6 +55,8 @@ Reference paper:
 
 The method of skip-thought vectors is pretty much like word embedding, but it is in the form of sentence-to-vector (sent2vec). In generating the skip-thought vectors, Encoder Network and Decoder Network are used.
 
+![skip_thought_pipeline.PNG](./images/skip_thought_pipeline.PNG)
+
 ##### 1. Encoder Network
 The encoder network is a typical RNN which will generate a certain length vector representation H(i) for each sentence S(i). The vector representation will be passed to the decoder network.
 
@@ -58,5 +65,10 @@ In the decoder network, it will take the output vector from the encoder network 
 
 ##### 3. K-means clustering 
 After learning the vector representations of each sentences, a clustering algorithm will be carried out in grouping the sentences according to the meaning respectively.  After carrying out the clustering, the sentences which are closest to center point of each cluster are considered to be important sentences.    
+
+![skip_though_clustering.png](./images/skip_though_clustering.png]
+
+Research paper:
+[Unsupervised Text Summarization Using Sentence Embeddings](https://www.cs.utexas.edu/~asaran/reports/summarization.pdf)
 
 ### 2. Abstractive Approach 
