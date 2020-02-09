@@ -48,4 +48,15 @@ Reference paper:
 
 #### Unsupervised learning with skip-thought vectors 
 
+The method of skip-thought vectors is pretty much like word embedding, but it is in the form of sentence-to-vector (sent2vec). In generating the skip-thought vectors, Encoder Network and Decoder Network are used.
+
+##### 1. Encoder Network
+The encoder network is a typical RNN which will generate a certain length vector representation H(i) for each sentence S(i). The vector representation will be passed to the decoder network.
+
+##### 2. Decoder Network
+In the decoder network, it will take the output vector from the encoder network as the input.  By using this input H(i), the network will tries to generate the neighbor sentences S(i+1) and S(i-1). By maxmimzing the likelihood in predicting the neighbor sentences, the network will update the coefficient of the sentence vectors in each training.  The learned coefficient will be the representation of each vector. 
+
+##### 3. K-means clustering 
+After learning the vector representations of each sentences, a clustering algorithm will be carried out in grouping the sentences according to the meaning respectively.  After carrying out the clustering, the sentences which are closest to center point of each cluster are considered to be important sentences.    
+
 ### 2. Abstractive Approach 
