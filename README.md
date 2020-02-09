@@ -66,7 +66,7 @@ In the decoder network, it will take the output vector from the encoder network 
 ##### 3. K-means clustering 
 After learning the vector representations of each sentences, a clustering algorithm will be carried out in grouping the sentences according to the meaning respectively.  After carrying out the clustering, the sentences which are closest to center point of each cluster are considered to be important sentences.    
 
-![skip_thought_clustering.png](./images/skip_thought_clustering.png]
+![skip_though_clustering.png](./images/skip_though_clustering.png]
 
 Research paper:
 [Unsupervised Text Summarization Using Sentence Embeddings](https://www.cs.utexas.edu/~asaran/reports/summarization.pdf)
