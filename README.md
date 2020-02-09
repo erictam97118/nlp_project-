@@ -36,8 +36,8 @@ TextRank is based on the famous PageRank algorithm which has been deployed in th
 
 In TextRank, we will regard each sentences in the documents as the node. For the matrix formualtion, the sentence similarity will be used in filling the entries in the matrix. After carrying out the iterative process, sentence with highest weighting will be the summary.  The sentence similarity can be computed in many different ways, in the original paper, it uses the overlapping words frequency between two sentences as the similarity.  Also, the similarity can be obtained by word embedding method as well.
 
-<img src="/images/text_rank_formula.png"  width="500" height="100">
-<img src="/images/text_rank_similarity.png"  width="500" height="100">
+<img src="/images/text_rank_formula.png"  width="350" height="100">
+<img src="/images/text_rank_similarity.png"  width="350" height="100">
 
 Reference paper: 
 [TextRank: Brining Order into Texts](https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf)
